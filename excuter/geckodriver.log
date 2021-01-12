@@ -1,0 +1,1270 @@
+1608169321765	geckodriver	INFO	Listening on 127.0.0.1:2055
+1608169324775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilelJp86r"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608169329140	Marionette	INFO	Listening on port 2063
+1608169329273	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1608169603997	Marionette	INFO	Stopped listening on port 2063
+1608182401546	geckodriver	INFO	Listening on 127.0.0.1:8354
+1608182404579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofiledRLxyh"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608182408399	Marionette	INFO	Listening on port 8365
+1608182408617	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1608182681625	Marionette	INFO	Stopped listening on port 8365
+1608268801568	geckodriver	INFO	Listening on 127.0.0.1:10558
+1608268804597	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilefLi3Oy"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608268808629	Marionette	INFO	Listening on port 10571
+1608268808971	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1608269083563	Marionette	INFO	Stopped listening on port 10571
+1608355201157	geckodriver	INFO	Listening on 127.0.0.1:9384
+1608355204167	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileOGyAzN"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608355208159	Marionette	INFO	Listening on port 9392
+1608355208555	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1608355480254	Marionette	INFO	Stopped listening on port 9392
+1608528001774	geckodriver	INFO	Listening on 127.0.0.1:7154
+1608528004623	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilePDmmeY"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608528008305	Marionette	INFO	Listening on port 7162
+1608528008530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 2180, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1608774340069	Marionette	INFO	Stopped listening on port 7162
+n headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608614408983	Marionette	INFO	Listening on port 10288
+1608614409244	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:13526
+1608700804804	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofile4AtXBl"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608700807958	Marionette	INFO	Listening on port 13534
+1608700808047	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1608701078190	Marionette	INFO	Stopped listening on port 13534
+1608773403500	geckodriver	INFO	Listening on 127.0.0.1:1673
+1608773406513	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileZwE7I1"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608773410329	Marionette	INFO	Listening on port 1681
+1608773410403	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 19580, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1608774316935	Marionette	INFO	Stopped listening on port 1681
+1608787201419	geckodriver	INFO	Listening on 127.0.0.1:13222
+1608787204429	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilelfMehg"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608787208255	Marionette	INFO	Listening on port 13230
+1608787208784	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1608787480373	Marionette	INFO	Stopped listening on port 13230
+1608858315803	geckodriver	INFO	Listening on 127.0.0.1:14420
+1608858318849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileg69ysb"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608858323754	Marionette	INFO	Listening on port 14428
+1608858323834	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1608858353017	Marionette	INFO	Stopped listening on port 14428
+1608873601473	geckodriver	INFO	Listening on 127.0.0.1:14745
+1608873604477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilevd8NiT"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608873608393	Marionette	INFO	Listening on port 14757
+1608873608831	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1608873880809	Marionette	INFO	Stopped listening on port 14757
+1608944702814	geckodriver	INFO	Listening on 127.0.0.1:7060
+1608944705810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileI09oGU"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608944709339	Marionette	INFO	Listening on port 7068
+1608944709675	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Listening on 127.0.0.1:13292
+1608960004518	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofile8cDuXQ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608960007955	Marionette	INFO	Listening on port 13301
+1608960008362	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1608960279452	Marionette	INFO	Stopped listening on port 13301
+1609203903834	geckodriver	INFO	Listening on 127.0.0.1:7688
+1609203906835	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileJsPRVp"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609203911415	Marionette	INFO	Listening on port 7699
+1609203911811	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 12116, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1609289295078	Marionette	INFO	Stopped listening on port 7699
+\Temp\\rust_mozprofileCLdLQ3"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609218010170	Marionette	INFO	Listening on port 14530
+1609218010507	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609290315337	geckodriver	INFO	Listening on 127.0.0.1:5586
+1609290318306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofiletLQtkU"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609290342376	Marionette	INFO	Listening on port 5598
+1609290342701	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Listening on 127.0.0.1:10628
+1609304409063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilezOZjsN"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609304412607	Marionette	INFO	Listening on port 10639
+1609304412909	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 15108, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1609312078094	Marionette	INFO	Stopped listening on port 10639
+Temp\\rust_mozprofilef0e5XH"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609304444940	Marionette	INFO	Listening on port 10744
+1609304445330	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609376715777	geckodriver	INFO	Listening on 127.0.0.1:6825
+1609376718802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofile9EUidL"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609376724002	Marionette	INFO	Listening on port 6834
+1609376724307	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609376753500	Marionette	INFO	Stopped listening on port 6834
+1609390814222	geckodriver	INFO	Listening on 127.0.0.1:11170
+1609390817271	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileNUuDk1"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609390821102	Marionette	INFO	Listening on port 11178
+1609390821172	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609390850179	Marionette	INFO	Stopped listening on port 11178
+1609390897456	geckodriver	INFO	Listening on 127.0.0.1:11280
+1609390900508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofile0K0yPP"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609390904385	Marionette	INFO	Listening on port 11288
+1609390904898	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1609391180199	Marionette	INFO	Stopped listening on port 11288
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609400475047	geckodriver	INFO	Listening on 127.0.0.1:11921
+1609400478092	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilex3yZm1"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609400482770	Marionette	INFO	Listening on port 11932
+1609400483111	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609400512505	Marionette	INFO	Stopped listening on port 11932
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609400560056	geckodriver	INFO	Listening on 127.0.0.1:12024
+1609400563161	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileqPKRL4"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609400567569	Marionette	INFO	Listening on port 12032
+1609400567643	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609400842968	Marionette	INFO	Stopped listening on port 12032
+1609463111114	geckodriver	INFO	Listening on 127.0.0.1:12906
+1609463114145	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofiletIPmkG"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609463117777	Marionette	INFO	Listening on port 12914
+1609463118040	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609463148895	Marionette	INFO	Stopped listening on port 12914
+1609479011822	geckodriver	INFO	Listening on 127.0.0.1:4590
+1609479014868	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileUIhVG5"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609479018440	Marionette	INFO	Listening on port 4598
+1609479018787	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609479050335	Marionette	INFO	Stopped listening on port 4598
+1609479091568	geckodriver	INFO	Listening on 127.0.0.1:4661
+1609479094624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileqROrWs"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609479097864	Marionette	INFO	Listening on port 4669
+1609479097929	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609479372882	Marionette	INFO	Stopped listening on port 4669
+1609549510193	geckodriver	INFO	Listening on 127.0.0.1:13861
+1609549513213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileb99IrH"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609549516222	Marionette	INFO	Listening on port 13870
+1609549516486	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609549547852	Marionette	INFO	Stopped listening on port 13870
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609565415396	geckodriver	INFO	Listening on 127.0.0.1:7482
+1609565418459	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilecJzN34"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609565421765	Marionette	INFO	Listening on port 7490
+1609565421798	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609565695548	Marionette	INFO	Stopped listening on port 7490
+1609635911091	geckodriver	INFO	Listening on 127.0.0.1:6623
+1609635914116	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileJEWqj4"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609635917812	Marionette	INFO	Listening on port 6631
+1609635918071	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609635948864	Marionette	INFO	Stopped listening on port 6631
+1609651815612	geckodriver	INFO	Listening on 127.0.0.1:2206
+1609651818669	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilervlF96"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609651822004	Marionette	INFO	Listening on port 2214
+1609651822081	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609652097845	Marionette	INFO	Stopped listening on port 2214
+1609722312438	geckodriver	INFO	Listening on 127.0.0.1:13527
+1609722315469	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofile9f24cO"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609722319284	Marionette	INFO	Listening on port 13535
+1609722319340	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1609722348498	Marionette	INFO	Stopped listening on port 13535
+1609738214742	geckodriver	INFO	Listening on 127.0.0.1:13005
+1609738217771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileItMs56"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609738222324	Marionette	INFO	Listening on port 13014
+1609738222757	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609738252868	Marionette	INFO	Stopped listening on port 13014
+1609738301437	geckodriver	INFO	Listening on 127.0.0.1:13095
+1609738304484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileYuaOjK"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609738308091	Marionette	INFO	Listening on port 13103
+1609738308337	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609738582251	Marionette	INFO	Stopped listening on port 13103
+1609808718507	geckodriver	INFO	Listening on 127.0.0.1:11545
+1609808721570	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilef62yxS"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609808726198	Marionette	INFO	Listening on port 11553
+1609808726599	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1609808756549	Marionette	INFO	Stopped listening on port 11553
+1609824613864	geckodriver	INFO	Listening on 127.0.0.1:11391
+1609824616918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofile7S0ZSj"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609824621967	Marionette	INFO	Listening on port 11399
+1609824622437	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609824652515	Marionette	INFO	Stopped listening on port 11399
+1609824699968	geckodriver	INFO	Listening on 127.0.0.1:11475
+1609824703017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileP5xWDV"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609824707175	Marionette	INFO	Listening on port 11486
+1609824707395	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609824982344	Marionette	INFO	Stopped listening on port 11486
+1609895112880	geckodriver	INFO	Listening on 127.0.0.1:12198
+1609895115910	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileRknONh"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609895120146	Marionette	INFO	Listening on port 12206
+1609895120268	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609895149050	Marionette	INFO	Stopped listening on port 12206
+1609911014136	geckodriver	INFO	Listening on 127.0.0.1:1183
+1609911017171	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilesm6siy"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609911021261	Marionette	INFO	Listening on port 1192
+1609911021531	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609911052252	Marionette	INFO	Stopped listening on port 1192
+1609911103591	geckodriver	INFO	Listening on 127.0.0.1:1292
+1609911106652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileFy3YIC"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609911110801	Marionette	INFO	Listening on port 1300
+1609911111025	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1609911386599	Marionette	INFO	Stopped listening on port 1300
+1609981515166	geckodriver	INFO	Listening on 127.0.0.1:10110
+1609981518212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileLi8e5v"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609981522298	Marionette	INFO	Listening on port 10118
+1609981522568	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1609981552680	Marionette	INFO	Stopped listening on port 10118
+1609997414400	geckodriver	INFO	Listening on 127.0.0.1:1146
+1609997417433	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileoxV6ni"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609997422089	Marionette	INFO	Listening on port 1154
+1609997422427	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609997452716	Marionette	INFO	Stopped listening on port 1154
+1609997500760	geckodriver	INFO	Listening on 127.0.0.1:1226
+1609997503817	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileAXpO8J"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609997506930	Marionette	INFO	Listening on port 1234
+1609997507089	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609997780504	Marionette	INFO	Stopped listening on port 1234
+1610067913372	geckodriver	INFO	Listening on 127.0.0.1:8313
+1610067916403	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofile7ilwQT"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610067922457	Marionette	INFO	Listening on port 8321
+1610067922976	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610067951750	Marionette	INFO	Stopped listening on port 8321
+1610083813074	geckodriver	INFO	Listening on 127.0.0.1:14739
+1610083816129	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilel2XfNT"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610083820601	Marionette	INFO	Listening on port 14748
+1610083821116	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610083852572	Marionette	INFO	Stopped listening on port 14748
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610083900233	geckodriver	INFO	Listening on 127.0.0.1:14818
+1610083903316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileg2UvON"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610083907149	Marionette	INFO	Listening on port 14826
+1610083907178	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610084180274	Marionette	INFO	Stopped listening on port 14826
+1610095213924	geckodriver	INFO	Listening on 127.0.0.1:9522
+1610095216954	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileImG0ct"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610095221207	Marionette	INFO	Listening on port 9530
+1610095221336	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610095252003	Marionette	INFO	Stopped listening on port 9530
+1610095304360	geckodriver	INFO	Listening on 127.0.0.1:9608
+1610095307434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileCSQN72"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610095313437	Marionette	INFO	Listening on port 9617
+1610095313544	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610095589383	Marionette	INFO	Stopped listening on port 9617
+1610095874538	geckodriver	INFO	Listening on 127.0.0.1:9882
+1610095877555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileo2RpWw"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610095882101	Marionette	INFO	Listening on port 9891
+1610095882595	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610095912878	Marionette	INFO	Stopped listening on port 9891
+1610095976520	geckodriver	INFO	Listening on 127.0.0.1:9994
+1610095979597	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileeHxrrD"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610095983655	Marionette	INFO	Listening on port 10003
+1610095983967	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610096257651	Marionette	INFO	Stopped listening on port 10003
+1610097375530	geckodriver	INFO	Listening on 127.0.0.1:4341
+1610097378582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilejyhMFL"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610097382339	Marionette	INFO	Listening on port 4349
+1610097382443	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610097413656	Marionette	INFO	Stopped listening on port 4349
+1610097476571	geckodriver	INFO	Listening on 127.0.0.1:4430
+1610097479664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilePl0YkR"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610097483554	Marionette	INFO	Listening on port 4438
+1610097484025	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610097749501	geckodriver	INFO	Listening on 127.0.0.1:4559
+1610097752598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilejgpTJm"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610097756864	Marionette	INFO	Listening on port 4567
+1610097756963	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610097787476	Marionette	INFO	Stopped listening on port 4567
+1610097839205	geckodriver	INFO	Listening on 127.0.0.1:4652
+1610097842276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilecppYfX"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610097846475	Marionette	INFO	Listening on port 4661
+1610097846640	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610098121085	Marionette	INFO	Stopped listening on port 4661
+1610154310597	geckodriver	INFO	Listening on 127.0.0.1:8074
+1610154313621	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilen1o9Oh"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610154317329	Marionette	INFO	Listening on port 8082
+1610154317529	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610154347465	Marionette	INFO	Stopped listening on port 8082
+1610170211761	geckodriver	INFO	Listening on 127.0.0.1:13624
+1610170214805	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileRo6WnC"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610170217838	Marionette	INFO	Listening on port 13632
+1610170218088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610170248416	Marionette	INFO	Stopped listening on port 13632
+1610170299625	geckodriver	INFO	Listening on 127.0.0.1:13692
+1610170302674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileBkY4PF"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610170305519	Marionette	INFO	Listening on port 13700
+1610170305946	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610170578991	Marionette	INFO	Stopped listening on port 13700
+1610240710981	geckodriver	INFO	Listening on 127.0.0.1:6263
+1610240714023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilevE1CAs"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610240717372	Marionette	INFO	Listening on port 6271
+1610240717413	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610240747465	Marionette	INFO	Stopped listening on port 6271
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610256610777	geckodriver	INFO	Listening on 127.0.0.1:4401
+1610256613831	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileBK9Hve"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610256617271	Marionette	INFO	Listening on port 4409
+1610256617741	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610256648633	Marionette	INFO	Stopped listening on port 4409
+1610256701369	geckodriver	INFO	Listening on 127.0.0.1:4474
+1610256704426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilel4QxMI"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610256707518	Marionette	INFO	Listening on port 4483
+1610256707720	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610256981472	Marionette	INFO	Stopped listening on port 4483
+1610327115486	geckodriver	INFO	Listening on 127.0.0.1:12080
+1610327118147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileswsqxN"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610327122654	Marionette	INFO	Listening on port 12088
+1610327123331	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610327152704	Marionette	INFO	Stopped listening on port 12088
+1610343012617	geckodriver	INFO	Listening on 127.0.0.1:4459
+1610343015603	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileNPO1Rj"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610343019773	Marionette	INFO	Listening on port 4468
+1610343020033	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610343050656	Marionette	INFO	Stopped listening on port 4468
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610343115368	geckodriver	INFO	Listening on 127.0.0.1:4567
+1610343118447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofilemV1bAe"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610343122015	Marionette	INFO	Listening on port 4579
+1610343122300	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610343394989	Marionette	INFO	Stopped listening on port 4579
+1610413514749	geckodriver	INFO	Listening on 127.0.0.1:5549
+1610413517725	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofiler68CyG"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610413522016	Marionette	INFO	Listening on port 5563
+1610413522333	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610413551994	Marionette	INFO	Stopped listening on port 5563
+1610429413918	geckodriver	INFO	Listening on 127.0.0.1:6870
+1610429416884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofiledVbOUV"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610429433086	Marionette	INFO	Listening on port 6879
+1610429433415	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610429464967	Marionette	INFO	Stopped listening on port 6879
+1610429520642	geckodriver	INFO	Listening on 127.0.0.1:6966
+1610429523724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\btorin\\AppData\\Local\\Temp\\rust_mozprofileVuYEhY"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610429527763	Marionette	INFO	Listening on port 6974
+1610429528081	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://yb01.88lard.com/js/ws.js, line 15: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1610429802558	Marionette	INFO	Stopped listening on port 6974
