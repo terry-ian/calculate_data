@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[9]:
+# In[1]:
 
 
 import numpy as np
@@ -16,6 +16,9 @@ import datetime
 from selenium.webdriver.common.action_chains import ActionChains
 
 
+# In[2]:
+
+
 user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15"
 profile = webdriver.FirefoxProfile()
 profile.set_preference("general.useragent.override", user_agent)
@@ -26,7 +29,7 @@ nowtime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 delay_oneday = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S")
 
 
-# In[11]:
+# In[4]:
 
 
 ###################  登入系統  ################
@@ -42,13 +45,13 @@ fp.set_preference("browser.helperApps.neverAsk.openFile", "")
 fp.set_preference("browser.download.manager.alertOnEXEOpen", False)
 fp.set_preference("browser.download.manager.showAlertOnComplete", False)
 fp.set_preference("browser.download.manager.closeWhenDone", True)
-fp.set_preference("browser.download.dir", "C:\\Users\\btorin\\Desktop\\download_csv") 
+fp.set_preference("browser.download.dir", "C:\\Users\\btorin\\Desktop\\download_csv_sigua") 
 options = Options()
 options.add_argument('--headless')
 options.binary = FirefoxBinary(r'C:\\Program Files\\Mozilla Firefox\\firefox.exe')
 browser = webdriver.Firefox(executable_path=r'C:\\Users\\btorin\\Desktop\\excuter\\geckodriver.exe', options=options,firefox_profile = fp)
 browser.maximize_window()
-browser.get('https://yb01.88lard.com/')
+browser.get('https://sg.88lard.com/')
 time.sleep(3)
 
 #elem=browser.find_element_by_id("username")
@@ -62,7 +65,7 @@ elem.click()
 time.sleep(3)
 
 
-# In[157]:
+# In[5]:
 
 
 #下載今日註冊會員
@@ -117,7 +120,7 @@ time.sleep(3)
 browser.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div/div[4]/button').click()
 
 
-# In[158]:
+# In[6]:
 
 
 #點選進入迅付
@@ -127,7 +130,7 @@ browser.find_element_by_xpath('//div[@class="sidebar-text"][text()="迅付"]').c
 time.sleep(1) 
 
 
-# In[159]:
+# In[7]:
 
 
 #換分頁
@@ -135,17 +138,17 @@ browser1=browser.window_handles[1]
 browser.switch_to_window(browser1) 
 
 
-# In[160]:
+# In[8]:
 
 
-#抵達會員入款訊息
+#抵達會員入款訊息 
 time.sleep(5)
-browser.find_element_by_link_text("会员入款").click()
+browser.find_element_by_link_text('会员入款').click()
 
 
 # # 成功 使用審核時間
 
-# In[161]:
+# In[9]:
 
 
 #分頁 '公司入款' 只有審核時間  
@@ -153,7 +156,7 @@ time.sleep(2)
 list_deposite=['/html/body/div/div[2]/div/div/div/ul/li[2]','/html/body/div/div[2]/div/div/div/ul/li[4]','/html/body/div/div[2]/div/div/div/ul/li[6]']
 
 
-# In[162]:
+# In[10]:
 
 
 #### 公司入款 第三方入款 電子錢包入款  ####
@@ -231,7 +234,7 @@ for c_deposite in list_deposite:
         time.sleep(6)
 
 
-# In[163]:
+# In[11]:
 
 
 ##########   加密貨幣   #############
@@ -310,7 +313,7 @@ except :
 
 # # 失敗  使用申請時間 
 
-# In[164]:
+# In[12]:
 
 
 #############   失敗  ################
@@ -363,7 +366,7 @@ for c_deposite in list_deposite_f:
     time.sleep(6)  
 
 
-# In[165]:
+# In[13]:
 
 
 ########## 失敗 加密貨幣   #################
@@ -411,7 +414,7 @@ browser.find_element_by_xpath('/html/body/div[1]/div[2]/div/div/div/div/div[2]/d
 time.sleep(6)
 
 
-# In[166]:
+# In[14]:
 
 
 browser.close()
@@ -419,16 +422,15 @@ browser.switch_to_window(browser.window_handles[0])
 browser.close()
 
 
-# In[ ]:
+# In[15]:
 
 
 import os 
-try:
-    os.system("taskkill /im firefox.exe")
-except :
-    print('all kill')
+os.system("taskkill /im firefox.exe")
+
+
+# In[ ]:
 
 
 
-import sys
-sys.exit()
+

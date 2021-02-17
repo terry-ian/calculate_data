@@ -31,26 +31,11 @@ def telebot_finish():
 # In[ ]:
 
 
-#畫圖 YABO SIGUA  #> F:\\Desktop\\download_csv\\plot.log 2>&1
-run_python_file("C:\\Users\\btorin\\AppData\\Local\\Programs\\Python\\Python38\\python C:\\Users\\btorin\\Desktop\\excuter\\request_data-plot-new-eastern.py " ,'美東畫圖','plot' )
-time.sleep(1)
-
-#畫圖 SIGUA
-#run_python_file("C:\\Users\\btorin\\AppData\\Local\\Programs\\Python\\Python38\\python C:\\Users\\btorin\\Desktop\\excuter\\request_data-plot-eastern_sigua.py " ,'美東畫圖','plot' )
-#time.sleep(1)
-
-##載檔案 YABO
-#run_python_file("C:\\Users\\btorin\\AppData\\Local\\Programs\\Python\\Python38\\python C:\\Users\\btorin\\Desktop\\excuter\\download_csv.py " ,'下載檔案','download' )
-#time.sleep(1)
-#
 #計算輸出 YABO
 run_python_file("C:\\Users\\btorin\\AppData\\Local\\Programs\\Python\\Python38\\python C:\\Users\\btorin\\Desktop\\excuter\\googleapisheet_upgrade_yabo.py " ,'計算檔案','calculate')
 time.sleep(1)
 #
-##載檔案 SIGUA
-#run_python_file("C:\\Users\\btorin\\AppData\\Local\\Programs\\Python\\Python38\\python C:\\Users\\btorin\\Desktop\\excuter\\download_csv_sigua.py " ,'下載檔案','download' )
-#time.sleep(1)
-#
+
 #計算輸出 SIGUA
 run_python_file("C:\\Users\\btorin\\AppData\\Local\\Programs\\Python\\Python38\\python C:\\Users\\btorin\\Desktop\\excuter\\googleapisheet_upgrade_sigua.py " ,'計算檔案','calculate')
 time.sleep(1)
