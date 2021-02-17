@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[266]:
+# In[29]:
 
 
 import requests
@@ -11,6 +11,7 @@ import time
 import pandas as pd
 import numpy as np
 import random
+import os
 
 import datetime
 import string
@@ -22,8 +23,16 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
+import selenium
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+import time
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.common.action_chains import ActionChains
 
-# In[267]:
+
+# In[30]:
 
 
 headers = {
@@ -31,40 +40,165 @@ headers = {
             'accept-language': 'zh-TW'
             }
 payload = {
-    'username': 'bbtorin',
+    'username': 'bbbtorin',
     'password': 'qwe123',
 }
+
+#帳號密碼
+username="bbbtorin"
+passwd="qwe123"
+downloadpath='F:/Desktop/download_csv'
+gekodriverpath= r'F:/Desktop/python_code/geckodriver.exe'
+nowtime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+
+# In[31]:
+
+
+def log_in_web(login_url):
+    #登入頁面
+    fp = webdriver.FirefoxProfile()
+    fp.set_preference("browser.download.folderList", 2) # 0 means to download to the desktop, 1 means to download to the default "Downloads" directory, 2 means to use the directory 
+    fp.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/plain,text/x-csv,text/csv,application/vnd.ms-excel,application/csv,application/x-csv,text/csv,text/comma-separated-values,text/x-comma-separated-values,text/tab-separated-values,application/pdf")
+    fp.set_preference("browser.download.manager.showWhenStarting",False)
+    fp.set_preference("browser.helperApps.neverAsk.openFile","text/plain,text/x-csv,text/csv,application/vnd.ms-excel,application/csv,application/x-csv,text/csv,text/comma-separated-values,text/x-comma-separated-values,text/tab-separated-values,application/pdf")
+    fp.set_preference("browser.helperApps.alwaysAsk.force", False)
+    fp.set_preference("browser.download.manager.useWindow", False)
+    fp.set_preference("browser.download.manager.focusWhenStarting", False)
+    fp.set_preference("browser.helperApps.neverAsk.openFile", "")
+    fp.set_preference("browser.download.manager.alertOnEXEOpen", False)
+    fp.set_preference("browser.download.manager.showAlertOnComplete", False)
+    fp.set_preference("browser.download.manager.closeWhenDone", True)
+    fp.set_preference("browser.download.dir", downloadpath) 
+    options = Options()
+    options.add_argument('--headless')
+    options.binary = FirefoxBinary(r'C:/Program Files/Mozilla Firefox/firefox.exe')
+    browser = webdriver.Firefox(executable_path=gekodriverpath, options=options,firefox_profile = fp)
+    browser.maximize_window()
+    browser.get(login_url)
+    time.sleep(3)
+    elem=browser.find_element_by_name("username")
+    elem.send_keys(username)
+    elem=browser.find_element_by_name("password")
+    elem.send_keys(passwd)
+    elem=browser.find_element_by_class_name("ui.large.fluid.button.submit")
+    elem.click()
+    time.sleep(3)
+    
+    #點選進入迅付
+    browser.find_element_by_class_name('item.sidebar-tab.extension-menu').click()
+    time.sleep(1)
+    browser.find_element_by_xpath('//div[@class="sidebar-text"][text()="迅付"]').click() 
+    time.sleep(1) 
+    
+    #換分頁
+    browser1=browser.window_handles[1]
+    time.sleep(1)
+    browser.switch_to_window(browser1) 
+    time.sleep(1)
+    
+    #抵達會員入款訊息 
+    time.sleep(5)
+    browser.find_element_by_xpath('//*[@id="site-container"]/nav/div[2]/div[1]/div[2]/div/ul/li[5]/div/div[1]/a').click()
+    time.sleep(2)
+    browser.find_element_by_xpath('//*[@id="site-content"]/div/div[1]/button[3]').click()
+    
+    #获取浏览器cookies
+    cookies = browser.get_cookies()  
+    payid=cookies[0]['value']
+    
+    #關閉瀏覽器
+    browser.close()
+    time.sleep(1)
+    browser.switch_to_window(browser.window_handles[0]) 
+    time.sleep(1)
+    browser.close()
+    
+    return(payid)
 
 
 # # YABO
 
-# In[268]:
+# In[14]:
 
 
-LOGIN_URL = 'https://yb01.88lard.com/api/v1/manager/login'
+#獲取cookies id
+payid=log_in_web('https://yb01.88lard.com/')
 
-ddd=(datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d") 
-ddd_2=(datetime.datetime.now() - datetime.timedelta(days=2)).strftime("%Y-%m-%d") 
+headerss = {
+'cookie': 'lang=zh-cn; payid='+payid,
+#'referer': weblink,
+'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+} 
+
+ddd=(datetime.datetime.now() - datetime.timedelta(days=0)).strftime("%Y-%m-%d") 
+ddd_2=(datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d") 
+
+####登入
+session_requests = requests.session()
+response = session_requests.request('PUT',url=LOGIN_URL, data=payload, headers=headerss)
 
 
-# In[269]:
+# In[17]:
+
+
+####申請時間####
+c_data_all_f=[]
+for i in range(0, 10000, 1000) :   
+    ttt111_2 = session_requests.get("https://a.inpay-pro.com/api/trade/v1/remit/entry/list?created_at_start="+ddd_2+"T12%3A00%3A00%2B0800&created_at_end="+ddd+"T11%3A59%3A59%2B0800&sort=id&order=desc&first_result="+str(i)+"&max_results=1000" , headers=headerss )
+    output_data_f=ttt111_2.json()['ret']
+    c_data_all_f=c_data_all_f+output_data_f
+three_data_all_f=[]
+for i in range(0, 10000, 1000) :   
+    ttt222_2 = session_requests.get("https://a.inpay-pro.com/api/trade/v1/deposit/entry/list?created_at_start="+ddd_2+"T12%3A00%3A00%2B0800&created_at_end="+ddd+"T11%3A59%3A59%2B0800&sort=id&order=desc&first_result="+str(i)+"&max_results=1000" , headers=headerss )
+    output_data_f=ttt222_2.json()['ret']
+    three_data_all_f=three_data_all_f+output_data_f
+e_data_all_f=[]
+for i in range(0, 10000, 1000) :   
+    ttt333_2 = session_requests.get("https://a.inpay-pro.com/api/trade/v1/wallet/entry/list?created_at_start="+ddd_2+"T12%3A00%3A00%2B0800&created_at_end="+ddd+"T11%3A59%3A59%2B0800&sort=id&order=desc&first_result="+str(i)+"&max_results=1000" , headers=headerss )
+    output_data_f=ttt333_2.json()['ret']
+    e_data_all_f=e_data_all_f+output_data_f
+m_data_all_f=[]
+for i in range(0, 10000, 1000) :   
+    ttt444_2 = session_requests.get("https://a.inpay-pro.com/api/trade/v1/crypto/entry/list?created_at_start="+ddd_2+"T12%3A00%3A00%2B0800&created_at_end="+ddd+"T11%3A59%3A59%2B0800&display_merge_data=true&first_result="+str(i)+"&max_results=1000" , headers=headerss )
+    output_data_f=ttt444_2.json()['ret']
+    m_data_all_f=m_data_all_f+output_data_f
+
+def changetodataframe(df):
+    if len(df)==0 :
+        output=pd.DataFrame(columns=['username','user_id','amount'])
+    else:
+        output=pd.DataFrame(df)[['username','user_id','amount']]
+        output.columns = ['username','user_id','amount']
+        output['amount']=output['amount'].astype('float')
+    return(output)
+
+register_deposite_c=changetodataframe(c_data_all_f)
+register_deposite_3=changetodataframe(three_data_all_f)
+register_deposite_e=changetodataframe(e_data_all_f)
+register_deposite_m=changetodataframe(m_data_all_f)
+df_all=register_deposite_c.append(register_deposite_3).append(register_deposite_e).append(register_deposite_m)
+
+
+# In[20]:
 
 
 #發送請求
+LOGIN_URL = 'https://yb01.88lard.com/api/v1/manager/login'
 session_requests = requests.session()
 response = session_requests.request('PUT',url=LOGIN_URL, data=payload, headers=headers)
-#deposite withdraw
-list_data_all=[]
-for i in range(0, 10000, 1000) : 
-    ttt= session_requests.get("https://yb01.88lard.com/api/v1/wallet/invoice/list?submit_start="+ddd_2+"T00%3A00%3A00-04%3A00&submit_end="+ddd+"T23%3A59%3A59-04%3A00&first_result="+str(i)+"&max_results=1000&updated_start="+ddd+"T00%3A00%3A00-04%3A00&updated_end="+ddd+"T23%3A59%3A59-04%3A00&level_id=599" , headers=headers )
-    output_data=ttt.json()['ret']
-    list_data_all=list_data_all+output_data
-df_all=pd.DataFrame(list_data_all)[['username','user_id','amount']]
-df_all['amount']=df_all['amount'].astype(float)
+##deposite withdraw
+#list_data_all=[]
+#for i in range(0, 10000, 1000) : 
+#    ttt= session_requests.get("https://yb01.88lard.com/api/v1/wallet/invoice/list?submit_start="+ddd_2+"T00%3A00%3A00-04%3A00&submit_end="+ddd+"T23%3A59%3A59-04%3A00&first_result="+str(i)+"&max_results=1000&updated_start="+ddd+"T00%3A00%3A00-04%3A00&updated_end="+ddd+"T23%3A59%3A59-04%3A00&level_id=599" , headers=headers )
+#    output_data=ttt.json()['ret']
+#    list_data_all=list_data_all+output_data
+#df_all=pd.DataFrame(list_data_all)[['username','user_id','amount']]
+#df_all['amount']=df_all['amount'].astype(float)
 df_unique_user=pd.DataFrame(df_all.groupby(by=['username','user_id'])['amount'].sum()).reset_index().rename(columns={ "amount": "amount"})
 
 
-# In[270]:
+# In[21]:
 
 
 df_user_infor= pd.DataFrame(columns=['username','user_id','phone','phone_confirm','name','created_at','cash.balance'])
@@ -78,7 +212,7 @@ for user_idd in df_unique_user['user_id'] :
     df_user_infor=df_user_infor.append(pd.json_normalize(output_data)[['username','user_id','phone','phone_confirm','name','created_at','cash.balance']])
 
 
-# In[271]:
+# In[23]:
 
 
 #時間轉換
@@ -88,7 +222,7 @@ random_df=df_user_infor.reset_index(drop=True)
 #random_df=random_df.sample(frac=1.0)
 
 
-# In[272]:
+# In[24]:
 
 
 #分組名單序列
@@ -112,7 +246,7 @@ while j <n:
     j += 1
 
 
-# In[273]:
+# In[26]:
 
 
 random_df=random_df[['username','phone_confirm','created_at']]
@@ -127,7 +261,7 @@ part14=random_df.iloc[offices[7]]
 part15=random_df.iloc[offices[8]]
 
 
-# In[274]:
+# In[ ]:
 
 
 # If modifying these scopes, delete the file token.pickle.
@@ -157,7 +291,7 @@ service = build('sheets', 'v4', credentials=creds)
 sheet = service.spreadsheets()
 
 
-# In[275]:
+# In[ ]:
 
 
 #寫入 data 進入 google sheet #美東時間
@@ -170,7 +304,7 @@ def clear_data(value_range_body,sheetname,colname1,colname2,col1,col2):
     request = sheet.values().clear(spreadsheetId=SAMPLE_SPREADSHEET_ID, range=SAMPLE_RANGE_NAME).execute() #, body=value_range_body
 
 
-# In[276]:
+# In[ ]:
 
 
 #分段寫入
@@ -190,37 +324,91 @@ for i in abclist :
 
 # # SIGUA
 
-# In[277]:
+# In[32]:
 
 
-LOGIN_URL = 'https://sg.88lard.com/api/v1/manager/login'
+#獲取cookies id
+payid=log_in_web('https://sg.88lard.com/')
 
-ddd=(datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d") 
-ddd_2=(datetime.datetime.now() - datetime.timedelta(days=2)).strftime("%Y-%m-%d") 
+headerss = {
+'cookie': 'lang=zh-cn; payid='+payid,
+#'referer': weblink,
+'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+} 
+
+ddd=(datetime.datetime.now() - datetime.timedelta(days=0)).strftime("%Y-%m-%d") 
+ddd_2=(datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d") 
+
+####登入
+session_requests = requests.session()
+response = session_requests.request('PUT',url=LOGIN_URL, data=payload, headers=headerss)
 
 
-# In[278]:
+# In[33]:
+
+
+####申請時間####
+c_data_all_f=[]
+for i in range(0, 10000, 1000) :   
+    ttt111_2 = session_requests.get("https://a.inpay-pro.com/api/trade/v1/remit/entry/list?created_at_start="+ddd_2+"T12%3A00%3A00%2B0800&created_at_end="+ddd+"T11%3A59%3A59%2B0800&sort=id&order=desc&first_result="+str(i)+"&max_results=1000" , headers=headerss )
+    output_data_f=ttt111_2.json()['ret']
+    c_data_all_f=c_data_all_f+output_data_f
+three_data_all_f=[]
+for i in range(0, 10000, 1000) :   
+    ttt222_2 = session_requests.get("https://a.inpay-pro.com/api/trade/v1/deposit/entry/list?created_at_start="+ddd_2+"T12%3A00%3A00%2B0800&created_at_end="+ddd+"T11%3A59%3A59%2B0800&sort=id&order=desc&first_result="+str(i)+"&max_results=1000" , headers=headerss )
+    output_data_f=ttt222_2.json()['ret']
+    three_data_all_f=three_data_all_f+output_data_f
+e_data_all_f=[]
+for i in range(0, 10000, 1000) :   
+    ttt333_2 = session_requests.get("https://a.inpay-pro.com/api/trade/v1/wallet/entry/list?created_at_start="+ddd_2+"T12%3A00%3A00%2B0800&created_at_end="+ddd+"T11%3A59%3A59%2B0800&sort=id&order=desc&first_result="+str(i)+"&max_results=1000" , headers=headerss )
+    output_data_f=ttt333_2.json()['ret']
+    e_data_all_f=e_data_all_f+output_data_f
+m_data_all_f=[]
+for i in range(0, 10000, 1000) :   
+    ttt444_2 = session_requests.get("https://a.inpay-pro.com/api/trade/v1/crypto/entry/list?created_at_start="+ddd_2+"T12%3A00%3A00%2B0800&created_at_end="+ddd+"T11%3A59%3A59%2B0800&display_merge_data=true&first_result="+str(i)+"&max_results=1000" , headers=headerss )
+    output_data_f=ttt444_2.json()['ret']
+    m_data_all_f=m_data_all_f+output_data_f
+
+def changetodataframe(df):
+    if len(df)==0 :
+        output=pd.DataFrame(columns=['username','user_id','amount'])
+    else:
+        output=pd.DataFrame(df)[['username','user_id','amount']]
+        output.columns = ['username','user_id','amount']
+        output['amount']=output['amount'].astype('float')
+    return(output)
+
+register_deposite_c=changetodataframe(c_data_all_f)
+register_deposite_3=changetodataframe(three_data_all_f)
+register_deposite_e=changetodataframe(e_data_all_f)
+register_deposite_m=changetodataframe(m_data_all_f)
+df_all=register_deposite_c.append(register_deposite_3).append(register_deposite_e).append(register_deposite_m)
+
+
+# In[35]:
 
 
 #發送請求
+LOGIN_URL = 'https://sg.88lard.com/api/v1/manager/login'
 session_requests = requests.session()
 response = session_requests.request('PUT',url=LOGIN_URL, data=payload, headers=headers)
-#deposite withdraw
-list_data_all=[]
-for i in range(0, 10000, 1000) : #https://sg.88lard.com/api/v1/wallet/invoice/list
-    ttt= session_requests.get("https://sg.88lard.com/api/v1/wallet/invoice/list?submit_start="+ddd_2+"T00%3A00%3A00-04%3A00&submit_end="+ddd+"T23%3A59%3A59-04%3A00&first_result="+str(i)+"&max_results=1000&updated_start="+ddd+"T00%3A00%3A00-04%3A00&updated_end="+ddd+"T23%3A59%3A59-04%3A00&level_id=868" , headers=headers )
-    output_data=ttt.json()['ret']
-    list_data_all=list_data_all+output_data
-df_all=pd.DataFrame(list_data_all)[['username','user_id','amount']]
-df_all['amount']=df_all['amount'].astype(float)
+##deposite withdraw
+#list_data_all=[]
+#for i in range(0, 10000, 1000) : #https://sg.88lard.com/api/v1/wallet/invoice/list
+#    ttt= session_requests.get("https://sg.88lard.com/api/v1/wallet/invoice/list?submit_start="+ddd_2+"T00%3A00%3A00-04%3A00&submit_end="+ddd+"T23%3A59%3A59-04%3A00&first_result="+str(i)+"&max_results=1000&updated_start="+ddd+"T00%3A00%3A00-04%3A00&updated_end="+ddd+"T23%3A59%3A59-04%3A00&level_id=868" , headers=headers )
+#    output_data=ttt.json()['ret']
+#    list_data_all=list_data_all+output_data
+#df_all=pd.DataFrame(list_data_all)[['username','user_id','amount']]
+#df_all['amount']=df_all['amount'].astype(float)
 df_unique_user=pd.DataFrame(df_all.groupby(by=['username','user_id'])['amount'].sum()).reset_index().rename(columns={ "amount": "amount"})
 
 
-# In[279]:
+# In[36]:
 
 
 df_user_infor= pd.DataFrame(columns=['username','user_id','phone','phone_confirm','name','created_at','cash.balance'])
 
+jj=0
 for user_idd in df_unique_user['user_id'] :
     ttt111= session_requests.get("https://sg.88lard.com/api/v1/player/"+str(user_idd)+"/info" , headers=headers )
     output_data=ttt111.json()['ret']
@@ -228,9 +416,14 @@ for user_idd in df_unique_user['user_id'] :
     if output_data.get('phone_confirm',False) == False: output_data['phone_confirm']=None 
     if output_data.get('name',False) == False: output_data['name']=None 
     df_user_infor=df_user_infor.append(pd.json_normalize(output_data)[['username','user_id','phone','phone_confirm','name','created_at','cash.balance']])
+    if jj%200 == 0:
+        #發送請求
+        session_requests = requests.session()
+        response = session_requests.request('PUT',url=LOGIN_URL, data=payload, headers=headers)
+    jj=jj+1
 
 
-# In[280]:
+# In[38]:
 
 
 #時間轉換
@@ -240,7 +433,7 @@ random_df=df_user_infor.reset_index(drop=True)
 #random_df=random_df.sample(frac=1.0)
 
 
-# In[281]:
+# In[39]:
 
 
 #分組名單序列
@@ -264,7 +457,7 @@ while j <n:
     j += 1
 
 
-# In[282]:
+# In[40]:
 
 
 random_df=random_df[['username','phone_confirm','created_at']]
@@ -275,7 +468,7 @@ part4=random_df.iloc[offices[3]]
 part5=random_df.iloc[offices[4]]
 
 
-# In[283]:
+# In[325]:
 
 
 # If modifying these scopes, delete the file token.pickle.
@@ -305,7 +498,7 @@ service = build('sheets', 'v4', credentials=creds)
 sheet = service.spreadsheets()
 
 
-# In[284]:
+# In[326]:
 
 
 #寫入 data 進入 google sheet #美東時間
@@ -318,7 +511,7 @@ def clear_data(value_range_body,sheetname,colname1,colname2,col1,col2):
     request = sheet.values().clear(spreadsheetId=SAMPLE_SPREADSHEET_ID, range=SAMPLE_RANGE_NAME).execute() #, body=value_range_body
 
 
-# In[285]:
+# In[327]:
 
 
 #分段寫入
@@ -326,14 +519,27 @@ abclist=[1,2,3,4,5]
 alldata=[part1,part2,part3,part4,part5]
 j=0
 for i in abclist :
-    clear_data(value_range_body,i,'A','C',3,200)
+    clear_data(value_range_body,i,'A','C',3,500)
     #填入時間
     value_range_body = {"majorDimension":"COLUMNS","values":[[ddd]]}
     insert_data(value_range_body,i,'B','B',1,1)
     #填入資料
     value_range_body = {"majorDimension":"ROWS","values": alldata[j].to_dict('split')['data'] } 
-    insert_data(value_range_body,i,'A','C',3,200)
+    insert_data(value_range_body,i,'A','C',3,500)
     j=j+1
+
+
+# In[ ]:
+
+
+
+
+
+# In[42]:
+
+
+#結束所有 firefox 瀏覽器
+os.system("taskkill /im firefox.exe")
 
 
 # In[ ]:
