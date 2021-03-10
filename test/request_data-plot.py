@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[203]:
+# In[1]:
 
 
 import requests
@@ -24,7 +24,7 @@ import plotly.graph_objs as go
 import plotly.express as px
 
 
-# In[204]:
+# In[2]:
 
 
 #登入訊息
@@ -39,7 +39,7 @@ gekodriverpath= r'F:/Desktop/python_code/geckodriver.exe'
 nowtime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 
-# In[205]:
+# In[3]:
 
 
 def log_in_web(login_url):
@@ -106,14 +106,14 @@ def log_in_web(login_url):
 
 # # YABO
 
-# In[206]:
+# In[4]:
 
 
 #獲取cookies id
 payid=log_in_web('https://yb01.88lard.com/')
 
 
-# In[207]:
+# In[5]:
 
 
 #登入訊息
@@ -174,13 +174,22 @@ for i in range(0, 10000, 1000) :
     e_data_all_s=e_data_all_s+output_data_s
 
 
-# In[208]:
+# In[6]:
 
 
 #匯種細項 排除取消代客測試  成功
-c_data_all_s_df=pd.DataFrame(c_data_all_s)[['remit_account_alias','type_name','confirm','amount','user_id','level_name']].rename(columns={ "remit_account_alias": "alias","type_name": "bank_name"})
-three_data_all_s_df=pd.DataFrame(three_data_all_s)[['merchant_alias','bank_name','confirm','amount','user_id','level_name']].rename(columns={ "merchant_alias": "alias"})
-e_data_all_s_df=pd.DataFrame(e_data_all_s)[['wallet_alias','bank_name','confirm','amount','user_id','level_name']].rename(columns={ "wallet_alias": "alias"})
+if len(c_data_all_s)==0 :
+    c_data_all_s_df=pd.DataFrame(columns=['alias','bank_name','confirm','amount','user_id','level_name'])
+else:
+    c_data_all_s_df=pd.DataFrame(c_data_all_s)[['remit_account_alias','type_name','confirm','amount','user_id','level_name']].rename(columns={ "remit_account_alias": "alias","type_name": "bank_name"})
+if len(three_data_all_s)==0 :
+    three_data_all_s_df=pd.DataFrame(columns=['alias','bank_name','confirm','amount','user_id','level_name'])
+else:
+    three_data_all_s_df=pd.DataFrame(three_data_all_s)[['merchant_alias','bank_name','confirm','amount','user_id','level_name']].rename(columns={ "merchant_alias": "alias"})
+if len(e_data_all_s)==0 :
+    e_data_all_s_df=pd.DataFrame(columns=['alias','bank_name','confirm','amount','user_id','level_name'])
+else:
+    e_data_all_s_df=pd.DataFrame(e_data_all_s)[['wallet_alias','bank_name','confirm','amount','user_id','level_name']].rename(columns={ "wallet_alias": "alias"})
 total_deposite_df=pd.concat([c_data_all_s_df,three_data_all_s_df,e_data_all_s_df])
 total_deposite_df=total_deposite_df[total_deposite_df['confirm']==True]
 total_deposite_df=total_deposite_df[total_deposite_df['alias'] != '代客充值-鸭脖银行卡支援']
@@ -198,6 +207,8 @@ total_deposite_df_f=total_deposite_df_f[total_deposite_df_f['level_name'] != '�
 #抓出渠道名稱
 all_channel=pd.DataFrame(total_deposite_df.groupby(['alias']).size().reset_index().rename(columns={"size": "total_count"}))
 all_channel=all_channel[['alias']]
+all_channel_f=pd.DataFrame(total_deposite_df_f.groupby(['alias']).size().reset_index().rename(columns={"size": "total_count"}))
+all_channel_f=all_channel_f[['alias']]
 
 #操作紀錄數據整理
 df_data=pd.DataFrame(ttt.json()['ret'])
@@ -205,7 +216,7 @@ df_data=df_data[['alias','status','created_at']]
 name_list=np.unique(df_data['alias'])
 
 
-# In[209]:
+# In[7]:
 
 
 emptylist= pd.DataFrame(columns=['Resource','Start','Finish'])
@@ -240,18 +251,41 @@ final_data=pd.DataFrame(emptylist.groupby(by=['Resource']).agg({'time_open': ['c
 final_data.columns = ['alias', 'total_count', 'total_time']  
 
 
-# In[210]:
+# In[17]:
 
 
-#通道合併 final_data
+#通道合併 final_data all_channel_f
 df_finaldata=pd.merge(all_channel,final_data,on = 'alias',how = 'outer')
-df_finaldata=pd.merge(df_finaldata,df_min_max,on = 'alias',how = 'left')
-df_finaldata['method_name']=df_finaldata['method_name'].replace(r'', '收银台')
-
 #處理空缺的細項
 df_finaldata['total_count']=df_finaldata['total_count'].fillna(1)
 df_finaldata['total_time']=df_finaldata['total_time'].fillna('1 days 00:00:00')
+df_finaldata=pd.merge(df_finaldata,all_channel_f,on = 'alias',how = 'outer')
+#處理空缺的細項
+df_finaldata['total_count']=df_finaldata['total_count'].fillna(0)
+df_finaldata['total_time']=df_finaldata['total_time'].fillna('0 days 00:00:00')
+
+df_finaldata=pd.merge(df_finaldata,df_min_max,on = 'alias',how = 'left')
+df_finaldata['method_name']=df_finaldata['method_name'].replace(r'', '收银台')
 df_finaldata=df_finaldata.fillna('銀行卡系列')
+
+
+# In[210]:
+
+
+#通道合併 final_data 
+df_finaldata=pd.merge(all_channel,final_data,on = 'alias',how = 'outer')
+#處理空缺的細項
+df_finaldata['total_count']=df_finaldata['total_count'].fillna(1)
+df_finaldata['total_time']=df_finaldata['total_time'].fillna('1 days 00:00:00')
+df_finaldata=pd.merge(df_finaldata,all_channel_f,on = 'alias',how = 'outer')
+#處理空缺的細項
+df_finaldata['total_count']=df_finaldata['total_count'].fillna(0)
+df_finaldata['total_time']=df_finaldata['total_time'].fillna('0 days 00:00:00')
+
+df_finaldata=pd.merge(df_finaldata,df_min_max,on = 'alias',how = 'left')
+df_finaldata['method_name']=df_finaldata['method_name'].replace(r'', '收银台')
+df_finaldata=df_finaldata.fillna('銀行卡系列')
+
 
 #list_data_all_s list_data_all_f
 df_data_s=total_deposite_df[['alias','user_id','level_name','confirm','amount']]
@@ -323,14 +357,14 @@ bot.sendDocument(chat_id=tele_chatid[0] , document= open(downloadpath+'/channel_
 
 # # SIGUA
 
-# In[188]:
+# In[4]:
 
 
 #獲取cookies id
 payid=log_in_web('https://sg.88lard.com/')
 
 
-# In[192]:
+# In[5]:
 
 
 #登入訊息
@@ -391,7 +425,7 @@ for i in range(0, 10000, 1000) :
     e_data_all_s=e_data_all_s+output_data_s
 
 
-# In[199]:
+# In[6]:
 
 
 #匯種細項 排除取消代客測試  成功
@@ -399,12 +433,19 @@ if len(c_data_all_s)==0 :
     c_data_all_s_df=pd.DataFrame(columns=['alias','bank_name','confirm','amount','user_id','level_name'])
 else:
     c_data_all_s_df=pd.DataFrame(c_data_all_s)[['remit_account_alias','type_name','confirm','amount','user_id','level_name']].rename(columns={ "remit_account_alias": "alias","type_name": "bank_name"})
-three_data_all_s_df=pd.DataFrame(three_data_all_s)[['merchant_alias','bank_name','confirm','amount','user_id','level_name']].rename(columns={ "merchant_alias": "alias"})
-e_data_all_s_df=pd.DataFrame(e_data_all_s)[['wallet_alias','bank_name','confirm','amount','user_id','level_name']].rename(columns={ "wallet_alias": "alias"})
+if len(three_data_all_s)==0 :
+    three_data_all_s_df=pd.DataFrame(columns=['alias','bank_name','confirm','amount','user_id','level_name'])
+else:
+    three_data_all_s_df=pd.DataFrame(three_data_all_s)[['merchant_alias','bank_name','confirm','amount','user_id','level_name']].rename(columns={ "merchant_alias": "alias"})
+if len(e_data_all_s)==0 :
+    e_data_all_s_df=pd.DataFrame(columns=['alias','bank_name','confirm','amount','user_id','level_name'])
+else:
+    e_data_all_s_df=pd.DataFrame(e_data_all_s)[['wallet_alias','bank_name','confirm','amount','user_id','level_name']].rename(columns={ "wallet_alias": "alias"})
+
 total_deposite_df=pd.concat([c_data_all_s_df,three_data_all_s_df,e_data_all_s_df])
 total_deposite_df=total_deposite_df[total_deposite_df['confirm']==True]
 total_deposite_df=total_deposite_df[total_deposite_df['alias'] != '代客充值-丝瓜银行卡支援']
-total_deposite_df=total_deposite_df[total_deposite_df['level_name'] != '測試帳號']
+total_deposite_df=total_deposite_df[total_deposite_df['level_name'] != '测试账号']
 
 #失敗
 if len(c_data_all_f)==0 :
@@ -413,14 +454,17 @@ else:
     c_data_all_f_df=pd.DataFrame(c_data_all_f)[['remit_account_alias','type_name','confirm','amount','user_id','level_name']].rename(columns={ "remit_account_alias": "alias","type_name": "bank_name"})
 three_data_all_f_df=pd.DataFrame(three_data_all_f)[['merchant_alias','bank_name','confirm','amount','user_id','level_name']].rename(columns={ "merchant_alias": "alias"})
 e_data_all_f_df=pd.DataFrame(e_data_all_f)[['wallet_alias','bank_name','confirm','amount','user_id','level_name']].rename(columns={ "wallet_alias": "alias"})
+
 total_deposite_df_f=pd.concat([c_data_all_f_df,three_data_all_f_df,e_data_all_f_df])
 total_deposite_df_f=total_deposite_df_f[total_deposite_df_f['confirm']==False]
 total_deposite_df_f=total_deposite_df_f[total_deposite_df_f['alias'] != '代客充值-丝瓜银行卡支援']
-total_deposite_df_f=total_deposite_df_f[total_deposite_df_f['level_name'] != '測試帳號']
+total_deposite_df_f=total_deposite_df_f[total_deposite_df_f['level_name'] != '测试账号']
 
 #抓出渠道名稱
 all_channel=pd.DataFrame(total_deposite_df.groupby(['alias']).size().reset_index().rename(columns={"size": "total_count"}))
 all_channel=all_channel[['alias']]
+all_channel_f=pd.DataFrame(total_deposite_df_f.groupby(['alias']).size().reset_index().rename(columns={"size": "total_count"}))
+all_channel_f=all_channel_f[['alias']]
 
 #操作紀錄數據整理
 df_data=pd.DataFrame(ttt.json()['ret'])
@@ -428,7 +472,7 @@ df_data=df_data[['alias','status','created_at']]
 name_list=np.unique(df_data['alias'])
 
 
-# In[200]:
+# In[10]:
 
 
 emptylist= pd.DataFrame(columns=['Resource','Start','Finish'])
@@ -463,19 +507,22 @@ final_data=pd.DataFrame(emptylist.groupby(by=['Resource']).agg({'time_open': ['c
 final_data.columns = ['alias', 'total_count', 'total_time']  
 
 
-# In[201]:
+# In[11]:
 
 
-#通道合併 final_data
+#通道合併 final_data 
 df_finaldata=pd.merge(all_channel,final_data,on = 'alias',how = 'outer')
-df_finaldata=pd.merge(df_finaldata,df_min_max,on = 'alias',how = 'left')
-df_finaldata['method_name']=df_finaldata['method_name'].replace(r'', '收银台')
-
 #處理空缺的細項
 df_finaldata['total_count']=df_finaldata['total_count'].fillna(1)
 df_finaldata['total_time']=df_finaldata['total_time'].fillna('1 days 00:00:00')
-df_finaldata=df_finaldata.fillna('銀行卡系列')
+df_finaldata=pd.merge(df_finaldata,all_channel_f,on = 'alias',how = 'outer')
+#處理空缺的細項
+df_finaldata['total_count']=df_finaldata['total_count'].fillna(0)
+df_finaldata['total_time']=df_finaldata['total_time'].fillna('0 days 00:00:00')
 
+df_finaldata=pd.merge(df_finaldata,df_min_max,on = 'alias',how = 'left')
+df_finaldata['method_name']=df_finaldata['method_name'].replace(r'', '收银台')
+df_finaldata=df_finaldata.fillna('銀行卡系列')
 #list_data_all_s list_data_all_f
 df_data_s=total_deposite_df[['alias','user_id','level_name','confirm','amount']]
 df_data_f=total_deposite_df_f[['alias','user_id','level_name','confirm']]
@@ -518,7 +565,7 @@ testdata_all['alias_name']=testdata_all['alias']+'-'+testdata_all['per_trade_min
 testdata_all.sort_values(by=["per_trade_min",'method_name'],inplace=True)
 
 
-# In[202]:
+# In[14]:
 
 
 #畫圖
@@ -531,7 +578,7 @@ all_resource_df.to_csv(downloadpath+'/channel_data_sigua.csv' ,encoding="utf_8_s
 emptylist.to_csv(downloadpath+'/channel_alldata_list_sigua.csv' ,encoding="utf_8_sig" )
 
 
-# In[ ]:
+# In[12]:
 
 
 #傳送到 TG
@@ -544,9 +591,15 @@ bot.sendDocument(chat_id=tele_chatid[0] , document= open(downloadpath+'/channel_
 bot.sendDocument(chat_id=tele_chatid[0] , document= open(downloadpath+'/channel_alldata_list_sigua.csv','rb'))
 
 
-# In[ ]:
+# In[32]:
 
 
 import os 
 os.system("taskkill /im firefox.exe")
+
+
+# In[ ]:
+
+
+
 
